@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router"
 import { modefunc } from "./ActionCreators"
@@ -42,7 +42,7 @@ const Navbar = () => {
 
     const navheads = useRef<Array>([])
     console.log(navheads,"NAVHEADS")
-    const handleNavHeads = (e:React.EventHandler<HTMLElement>) =>{
+    const handleNavHeads = (e:any) =>{
       for (let i of navheads.current){
         i.classList.remove('bold', 'underline')
       }
