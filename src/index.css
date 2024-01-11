@@ -1,0 +1,161 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+#root{
+  padding: 0px !important;
+  margin:0px !important;
+  width:100% !important;
+  max-width:100% !important;
+}
+.bg-white{
+  background-color:white;
+}
+.w-955{
+  width:955px;
+}
+.w-100{
+  width:100%;
+}
+.fs-18{
+  font-size:18px;
+}
+.times-new-roman{
+  font-family: 'Times New Roman', Times, serif;
+}
+.vh-11{
+  height:11vh;
+}
+.w-100{
+  width:100%;
+  padding-top:0px;
+  margin:0px;
+}
+.m-0{
+  margin:0%;
+}
+.bold{
+  font-weight:bold;
+}
+.underline{
+  text-decoration: underline;
+}
+.d-flex{
+  display:flex;
+}
+.space-between{
+  justify-content: space-between;
+}
+.space-evenly{
+  justify-content: space-evenly;
+}
+.space-around{
+  justify-content: space-around;
+}
+li{
+  list-style-type:none;
+}
+.w-40{
+  width:40%;
+}
+.fs-22{
+  font-size:22px;
+}
+.fw-700{
+  font-weight:700;
+}
+.w-60{
+  width:50%;
+}
+.justify-center{
+  justify-content: center;
+}
+.fs-24{
+  font-size:24px;
+}
+.text-black{
+  color: black;
+}
+.flex-column{
+  flex-direction: column;
+}
+.align-center{
+  align-items: center;
+}
+.accnt-image{
+  border-radius:50%;
+  padding: 2%;
+}
+.text-capital{
+  text-transform: uppercase;
+}
+.text-white{
+  color: white;
+}
+body{
+  background-color: rgb(245, 245, 245);
+}
+.p-1{
+  padding:1%;
+}
+.p-2{
+  padding:2%;
+}
+.p-5{
+  padding:7%;
+}
+.br-2{
+  border-radius:2%;
+}
+.text-justify{
+  text-align:justify;
+}
+.bg-black{
+  background-color:rgba(0, 0, 0, 0.76);
+}
+.bg-light-black{
+  background-color:rgb(3, 3, 26);
+}
+.ml-10{
+  margin-left:10%;
+}
+.mr-10{
+  margin-right:10%;
+}
+.mt-2{
+  margin-top:2%;
+}
+.fs-22{
+  font-size:22px;
+}
+.bolder{
+  font-weight: bolder;
+}
+.fs-28{
+  font-size:28px;
+}
+.text-center{
+  text-align: center;
+}
+i,button,a,Link{
+  cursor: pointer;
+}
+.lh-1{
+  line-height:1.6;
+}
+.pointer{
+  cursor: pointer;
+}
+.text-left{
+  text-align: left;
+}
+#navbar{
+  /* position:fixed; */
+}
