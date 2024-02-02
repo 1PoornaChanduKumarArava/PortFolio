@@ -42,6 +42,7 @@ const Home = () => {
   }
   },[store])
 
+
   return (
     <>
     <div className="account d-flex flex-column justify-center align-center">
@@ -49,7 +50,7 @@ const Home = () => {
       <div className='justify text-center'>
         <h2 className='white text-capital fs-28 bolder'>Poorna Chandu Kumar Arava</h2>
         <div className='text-center'>
-          <p className='white text-justify fs-18 ml-10 mr-10 mt-2 lh-1'>Greetings, <b>I am Poorna Chandu Kumar Arava,</b> a Software Engineer at Talent Pace, Bangalore. My expertise lies in developing Online Shopping Cart and Pick a Movie Websites using React-Redux and JWT , and designing static web pages using HTML, CSS, JavaScript, and Bootstrap. Additionally, I have worked as a <b>Teaching Assistant</b> at NXTWAVE, where I assisted students with their queries related to HTML, CSS, and Bootstrap. I have strongly skilled in <b>Python-OOPS, React-Redux, TypeScript, JavaScript, HTML, CSS and Boostrap.</b> My academic background includes a Bachelor's degree in Electronics and Communication Technology. My strengths include a Hard-working nature, Effective communication, Positive Attitude, and Good time management. Outside of work, I enjoy reading, photography, teaching, and playing badminton and chess.</p>
+          <p className='bg-read-docs white text-justify fs-18 ml-10 mr-10 mt-2 lh-1'>Greetings, <b>I am Poorna Chandu Kumar Arava,</b> a Software Engineer at Talent Pace, Bangalore. My expertise lies in developing Online Shopping Cart and Pick a Movie Websites using React-Redux and JWT , and designing static web pages using HTML, CSS, JavaScript, and Bootstrap. Additionally, I have worked as a <b>Teaching Assistant</b> at NXTWAVE, where I assisted students with their queries related to HTML, CSS, and Bootstrap. I have strongly skilled in <b>ASP .NET CORE, C#, Sql Server, Python-OOPS, React-Redux, TypeScript, JavaScript, HTML, CSS and Boostrap.</b> My academic background includes a Bachelor's degree in Electronics and Communication Technology. My strengths include a Hard-working nature, Effective communication, Positive Attitude, and Good time management. Outside of work, I enjoy reading, photography, teaching, and playing badminton and chess.</p>
         </div>
         <div className='d-flex justify-center text-center'>
             <p onClick={()=>{window.location.href=`mailto:poornachandukumararava1@gmail.com`}} className='mt-2'>  <i className="fa-regular fs-28 fa-envelope text-black white"></i></p>&nbsp;&nbsp;&nbsp;&nbsp;
