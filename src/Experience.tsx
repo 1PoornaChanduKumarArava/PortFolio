@@ -4,7 +4,6 @@ import { modefunc } from './ActionCreators'
 
 const Experience = () => {
   const store=useSelector((store:any)=>store.mode)
-  console.log(store,"BOOLEAN")
   const dispatch=useDispatch()
 
   const handleMode = () =>{
@@ -45,7 +44,7 @@ const Experience = () => {
 
   return (
     <>
-    <div className='d-flex justify-center'>
+    <div className='d-flex justify-center vh-100'>
         <div className='mt-2 text-left'>
           <h1 className='white bolder'>Experience</h1>
           <div className='intern bg-white p-2 br-2 mt-2 w-955'>

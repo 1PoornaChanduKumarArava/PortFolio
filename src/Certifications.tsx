@@ -5,7 +5,6 @@ import { modefunc } from './ActionCreators'
 
 const Certifications = () => {
   const store=useSelector((store:any)=>store.mode)
-  console.log(store,"BOOLEAN")
   const dispatch=useDispatch()
 
   const handleMode = () =>{

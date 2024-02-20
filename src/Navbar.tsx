@@ -41,13 +41,11 @@ const Navbar = () => {
 
 
     const navheads = useRef<Array<HTMLElement | null>>([])
-    console.log(navheads,"NAVHEADS")
     const handleNavHeads = (e:any) =>{
       for (let i of navheads.current){
         i!.classList.remove('bold', 'underline')
       }
       e.classList.add('bold','underline')
-      console.log(e)
     }
 
   return (

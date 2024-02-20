@@ -4,7 +4,6 @@ import { modefunc } from './ActionCreators'
 
 const Awards = () => {
   const store=useSelector((store:any)=>store.mode)
-  console.log(store,"BOOLEAN")
   const dispatch=useDispatch()
     const handleMode = () =>{
        if (store===true){
@@ -51,7 +50,6 @@ const Awards = () => {
           <div className='intern bg-white p-2 br-2 mt-2 w-955'>
             <h2 className='bolder fs-22 p-1 white'>Talk Appreciation - Intershala Student Partner 22</h2>  
             <img height={395} width={555} src='Talk Appreciation.png'/>
-            <p className='fs-18 p-1 white'>Dec 2023</p>         
           </div>
 
         </div>

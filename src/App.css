@@ -4,12 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-body{
-  background-image:url('StarsGif.gif');
-  background-repeat:cover;
-  background-position:left;  
-
-}
 
 .logo {
   height: 6em;
