@@ -1,7 +1,6 @@
-import { useEffect, useState} from "react"
+import { useEffect} from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { modefunc } from "./ActionCreators"
-import { useNavigate } from "react-router"
 
 
 const Footer = () => {
