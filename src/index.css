@@ -166,3 +166,135 @@ i,button,a,Link{
 .text-left{
   text-align: left;
 }
+
+
+
+/* Media Queries Navbar*/
+/* Existing CSS */
+
+/* Media Queries */
+/* Your existing CSS... */
+
+/* Media Queries */
+/* Your existing CSS... */
+
+/* Media Queries */
+/* Your existing CSS... */
+
+/* Media Queries */
+
+
+
+
+
+
+
+
+
+/*Home Media Query*/
+/* Add this CSS in your stylesheet or in a style tag within your component */
+
+@media (max-width: 768px) {
+  .fs-28 {
+    font-size: 24px !important; /* Adjust as needed */
+  }
+
+  .fs-18 {
+    font-size: 16px !important; /* Adjust as needed */
+    margin: 0 5%; /* Adjust margins for smaller screens */
+  }
+
+  .ml-10,
+  .mr-10 {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+
+  .mt-2 {
+    margin-top: 1rem !important; /* Adjust margin as needed */
+  }
+
+  .fs-28,
+  .fa-regular,
+  .fa-brands {
+    margin-right: 10px !important; /* Adjust as needed */
+  }
+}
+
+/* Add more media queries as needed */
+
+
+@media (max-width: 768px) {
+  .intern {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+
+
+/*Projects*/
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .fs-28 {
+    font-size: 22px; /* Adjust as needed */
+  }
+
+  .fs-22 {
+    font-size: 18px; /* Adjust as needed */
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+
+  .intern {
+    max-width: none !important;
+  }
+}
+
+
+/*Certifications*/
+/* Media Queries */
+@media (max-width: 768px) {
+  .fs-22 {
+    font-size: 18px !important; /* Adjust as needed */
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+
+  .cert-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+
+@media screen and (max-width: 788px) {
+  .d-flex {
+    flex-direction: column !important;
+  }
+
+  .wi-40, .wi-60 {
+    width: 100% !important;
+    margin-bottom: 1rem !important; 
+  }
+
+  .brand,
+  .mode-toggle {
+    margin-right: 1rem;
+  }
+
+  .nav-links {
+    display: flex !important;
+    gap: 1rem;
+  }
+}

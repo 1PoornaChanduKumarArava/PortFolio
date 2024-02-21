@@ -51,11 +51,11 @@ const Navbar = () => {
   return (
     
       <div id="navbar" className="bg-white p-2 d-flex space-between justify-center w-100 m-0">
-        <div className="w-40 d-flex">
+        <div className="w-40 wi-40 d-flex">
             <li className="fs-24 fw-700 pointer white"  onClick={()=>{navigate('/'); handleNavHeads(navheads.current[0]);}}>Poorna Chandu Kumar Arava &nbsp;</li>
             <li className="text-black fs-24 fw-700 white"  onClick={()=>{setMode(!mode);handleMode();}}> {mode ? <i className="fa-regular fa-moon text-black white"></i> : <i className="fa-solid fa-sun text-black text-white"></i>}</li>
         </div>
-        <div className="d-flex space-around w-60">
+        <div className="d-flex space-around w-60 wi-60">
             <li ref={(e)=>navheads.current[0]=e} className='fs-18 pointer white bold underline' onClick={(e)=>{handleNavHeads(e.target);navigate('/');}}>Home</li>
             <li ref={(e)=>navheads.current[1]=e} className='fs-18 pointer white' onClick={(e)=>{handleNavHeads(e.target);navigate('/experience');}}>Experience</li>
             <li ref={(e)=>navheads.current[2]=e} className='fs-18 pointer white' onClick={(e)=>{handleNavHeads(e.target);navigate('/education');}}>Education</li>
