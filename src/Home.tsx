@@ -50,7 +50,7 @@ const Home = () => {
         <h2 className='white text-capital fs-28 bolder'>Poorna Chandu Kumar Arava</h2>
         <div className='text-center'>
           <p className='bg-read-docs white text-justify fs-18 ml-10 mr-10 mt-2 lh-1'>Greetings, <b>I am Poorna Chandu Kumar Arava,</b> a Software Engineer at Talent Pace, Bangalore.
-          I have <b>experience in ASP .NET CORE, C#, Microsoft SQL Server, Python-OOPS, React-Redux, TypeScript, Material UI, JavaScript, HTML, CSS, and Bootstrap</b>. I led a Plant Management Project
+          I have <b>experience in ASP .NET CORE - Dapper, C#, Microsoft SQL Server, Python-OOPS, React-Redux, TypeScript, Material UI, JavaScript, HTML, CSS, and Bootstrap</b>. I led a Plant Management Project
           Also developed an Online Shopping Cart and Pick a Movie Website using React-Redux, and designed many static web pages using HTML, CSS, JavaScript, and Bootstrap. 
           Additionally, I have worked as a <b>Teaching Assistant</b> at NXTWAVE, where I assisted students with their queries related to HTML, CSS, and Bootstrap. I have strongly skilled in <b>ASP .NET CORE, C#, Microsoft Sql Server, Python-OOPS, React-Redux, TypeScript, Material UI, JavaScript, HTML, CSS and Boostrap.</b> My academic background includes a Bachelor's degree in Electronics and Communication Technology. My strengths include a Hard-working nature, Effective communication, Positive Attitude, and Good time management. Outside of work, I enjoy reading, photography, teaching, and playing badminton and chess.</p>
         </div>

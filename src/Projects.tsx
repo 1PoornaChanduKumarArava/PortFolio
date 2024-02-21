@@ -60,21 +60,21 @@ const Projects = () => {
           </div>
           <a href='https://pick-a-movie-for-me.vercel.app/' target='_blank' style={{color:'black',textDecoration:'none',cursor:'pointer'}} >
             <div className='intern bg-white p-2 br-2 mt-2 w-955'>
-              <h2 className='bolder fs-22 p-1 white'>Pick a Movie Website</h2>  
+              <h2 className='bolder fs-22 p-1 white'>Pick a Movie Website &nbsp; &nbsp; <i className="fa-solid fa-right-from-bracket fa-fade"></i> </h2>  
               <p className='fs-18 p-1 white'>Using React, Redux, TypeScript, HTML, CSS, Bootstrap and JS</p> 
               <p className='fs-18 p-1 white'>Dec 2023</p>         
             </div>
           </a>
           <a href='https://shoppingcart-woad-delta.vercel.app/' target='_blank' style={{color:'black',textDecoration:'none',cursor:'pointer'}} >
             <div className='intern bg-white p-2 br-2 mt-2 w-955'>
-              <h2 className='bolder fs-22 p-1 white'>Online Shopping Cart Website</h2>  
+              <h2 className='bolder fs-22 p-1 white'>Online Shopping Cart Website &nbsp; &nbsp; <i className="fa-solid fa-right-from-bracket fa-fade"></i> </h2>  
               <p className='fs-18 p-1 white'>Using React, Redux, TypeScript, HTML, CSS, Bootstrap and JS</p> 
               <p className='fs-18 p-1 white'>Dec 2023</p>         
             </div>
           </a>
           <a href='https://weatherforecasting-nine.vercel.app/' target='_blank' style={{color:'black',textDecoration:'none',cursor:'pointer'}} >
             <div className='intern bg-white p-2 br-2 mt-2 w-955'>
-              <h2 className='bolder fs-22 p-1 white'>Weather Website</h2>  
+              <h2 className='bolder fs-22 p-1 white'>Weather Website &nbsp; &nbsp; <i className="fa-solid fa-right-from-bracket fa-fade"></i> </h2>  
               <p className='fs-18 p-1 white'>Using React, TypeScript, HTML, CSS, Bootstrap and JS</p> 
               <p className='fs-18 p-1 white'>Nov 2023</p>         
             </div>
