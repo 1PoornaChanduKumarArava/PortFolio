@@ -58,7 +58,7 @@ const Home = () => {
             <p onClick={()=>{window.location.href=`mailto:poornachandukumararava1@gmail.com`}} className='mt-2'>  <i className="fa-regular fs-28 fa-envelope text-black white"></i></p>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href='https://www.linkedin.com/in/poornachandukumararava/' target='_blank' className='mt-2'>  <i className="fa-brands fs-28 fa-linkedin text-black white"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
             <a href='https://github.com/1PoornaChanduKumarArava' target='_blank' className='mt-2'>  <i className="fa-brands fs-28 fa-github text-black white"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://drive.google.com/file/d/1ypi--OGFe4gTwGhbcaHnRfEnQLipZHnZ/view?usp=sharing" target="_blank" className='mt-2 white'>  <i className="fa-regular fs-28 fa-file text-black white"></i> </a>
+            <a href="https://drive.google.com/file/d/1cxmG3FTK5_xDF4EumfytaFFO0n3IfVd_/view?usp=drive_link" target="_blank" className='mt-2 white'>  <i className="fa-regular fs-28 fa-file text-black white"></i> </a>
         </div>
       </div>   
     </div> 
